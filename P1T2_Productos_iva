@@ -1,0 +1,26 @@
+listproduct = []
+listproduct = input("Agregar el precio de los productos separado por comas: ").split(",")
+for i in range (len(listproduct)):
+  print(f"Valor base del producto ",i+1," : ",listproduct[i])
+  print(f"Valor iva (%19) del producto ",i+1," : ",int(listproduct[i])*0.19)
+  print(f"Valor total del producto ",i+1," : ",int(listproduct[i])*0.19+int(listproduct[i]),"\n")
+  Agregar el precio de los productos separado por comas: 1,2,3,4,5
+Valor base del producto  1  :  1
+Valor iva (%19) del producto  1  :  0.19
+Valor total del producto  1  :  1.19 
+
+Valor base del producto  2  :  2
+Valor iva (%19) del producto  2  :  0.38
+Valor total del producto  2  :  2.38 
+
+Valor base del producto  3  :  3
+Valor iva (%19) del producto  3  :  0.5700000000000001
+Valor total del producto  3  :  3.5700000000000003 
+
+Valor base del producto  4  :  4
+Valor iva (%19) del producto  4  :  0.76
+Valor total del producto  4  :  4.76 
+
+Valor base del producto  5  :  5
+Valor iva (%19) del producto  5  :  0.95
+Valor total del producto  5  :  5.95 
