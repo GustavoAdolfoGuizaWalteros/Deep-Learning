@@ -4,7 +4,9 @@ for i in range (len(listproduct)):
   print(f"Valor base del producto ",i+1," : ",listproduct[i])
   print(f"Valor iva (%19) del producto ",i+1," : ",int(listproduct[i])*0.19)
   print(f"Valor total del producto ",i+1," : ",int(listproduct[i])*0.19+int(listproduct[i]),"\n")
+  
   Agregar el precio de los productos separado por comas: 1,2,3,4,5
+
 Valor base del producto  1  :  1
 Valor iva (%19) del producto  1  :  0.19
 Valor total del producto  1  :  1.19 
